@@ -24,7 +24,7 @@ function startTyping(element, text, interval, delay) {
 function unType(element, text, interval, delay) {
   let counter = 1;
   const intervalId = setInterval(() => {
-    if (counter > text.length) {
+    if (counter == text.length) {
       clearInterval(intervalId);
       return setTimeout(
         () => startTyping(element, text, interval),

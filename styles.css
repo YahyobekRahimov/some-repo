@@ -56,3 +56,8 @@ nav {
   margin-top: -90px;
   height: 100vh;
 }
+
+p {
+  margin-top: 20px;
+  text-align: center;
+}
